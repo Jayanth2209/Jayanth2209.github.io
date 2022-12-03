@@ -244,163 +244,113 @@
 
                 <button style="border:0px transparent; background-color: transparent;outline:none;"type="button" class="collapsible" data-toggle="collapse" data-target="#content-projects" id="projects"><heading>Projects</heading></button>
                 <div id="content-projects" class="collapse in">
-
-                <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    
+                <table border=0 class="bg_colour" style="padding:20px;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
                     <tr>
-                        <td style="padding:20px;width:25%;vertical-align:middle">
+                        <td style="padding:10px;width:25%;vertical-align:middle">
                             <div class="one">
-                                <img src='images/covid_explanations.png' width="120">
+                                <img src='images/iitmlogo.png' width="120">
                             </div>
                         </td>
-                        <td style="padding:20px;width:75%;vertical-align:top">
-                            <papertitle><big>Constructing and Evaluating an Explainable Model for COVID-19 Diagnosis from Chest X-rays</papertitle></big>
+                        <td style="padding:10px;width:75%;vertical-align:top">
+                            <papertitle style="color:gray"><big>In-Memory Computing Engine</big> </papertitle> <papertitle ><big> | Guide: Prof. Janakiraman V</big></papertitle>
                             <br>
-                            <p><em>Under submission. <a href="https://arxiv.org/pdf/2012.10787" target="_blank">[preprint]</a></em></p>
-                            <p>In this paper, our focus is on constructing  models  to  assist  a  clinician  in  the diagnosis of COVID-19 patients in situations where it is easier and cheaper to obtain X-ray data. We propose a new COVIDr dataset with important radiological annotations from a practicing radiologist. We build a deep neuro-symbolic model to diagnose COVID-19 and provide visual and textual explanations, with no significant loss in predictive accuracy compared to an end-to-end model. We find that the radiologist prefers simple representations, both visual and textual to aid in diagnosis.</p>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td style="padding:20px;width:25%;vertical-align:middle">
-                            <div class="one">
-                                <img src='images/dem_unc_boost.png' width="120">
-                            </div>
-                        </td>
-                        <td style="padding:20px;width:75%;vertical-align:top">
-                            <papertitle><big>Uncertainty-Aware Boosted Ensembling in Multi-Modal Settings</papertitle></big>
+                            Apr 2022 - Jun 2022
+                            <br>
                             <br>
                             <p>
-                            <em>Accepted at <a href="https://www.ijcnn.org/" target="_blank">IJCNN 2021</a>. <a href="https://arxiv.org/abs/2104.10715" target="_blank">[preprint]</a> <a href="https://github.com/usarawgi911/Uncertainty-aware-boosting" target="_blank">[code]</a> <a href="https://drive.google.com/file/d/1Qoxvr-QJhcpsHGRKuOT2xop8mopUUgYo/view?usp=sharing" target="_blank">[video]</a> <a href="data/IJCNN21slides.pdf" target="_blank">[slides]</a>
-                            </em>
-                            <br>
-                            <em>Extended abstract accepted at the <a href="https://ml4health.github.io/" target="_blank">Machine Learning for Health Workshop</a>, <a href="https://nips.cc/" target="_blank">NeurIPS 2020</a>.</em> 
-                            </em><a href="https://arxiv.org/abs/2010.01440" target="_blank"> [preprint] </a><a href="https://github.com/wazeerzulfikar/alzheimers-dementia" target="_blank"> [code] </a></p>
-                            <p>We propose an uncertainty-aware boosting technique for multi-modal ensembling in order to focus on the data points with higher associated uncertainty estimates, rather than the ones with higher loss values. We evaluate this method on healthcare tasks related to Dementia and Parkinson's disease which involve real-world multi-modal speech and text data, wherein our method shows an improved performance. Additional analysis suggests that introducing uncertainty-awareness into the boosted ensembles decreases the overall entropy of the system, making it more robust to heteroscedasticity in the data, as well as better calibrating each of the modalities along with high quality prediction intervals.</p>
+                                Designed an SRAM-based IMC Engine that performs Multiply and Accumulate with a MAC range of 128. 
+                                Constructed carefully-sized Charge and Current-based SRAM Cells (with Decoupled Read-Write). 
+                                Achieved 98% accuracy with IMC Engine tuned on MNIST Dataset, employing 8-bit fixed-point inputs and weights.
+                            </p>
                         </td>
                     </tr>
 
                     <tr>
-                        <td style="padding:20px;width:25%;vertical-align:middle">
+                        <td style="padding:10px;width:25%;vertical-align:middle">
                             <div class="one">
-                                <img src='images/dse_unc.png' width="120">
+                                <img src='images/iitmlogo.png' width="120">
                             </div>
                         </td>
-                        <td style="padding:20px;width:75%;vertical-align:top">
-                            <papertitle><big>Disentangling Predictive Uncertainties using Deep Split Ensembles</papertitle></big>
+                        <td style="padding:10px;width:75%;vertical-align:top">
+                            <papertitle style="color:gray"><big> Accelerating Mandelbrot Fractal Generation</big> </papertitle> <papertitle ><big> | Guide: Prof. Nitin Chandrachoodan</big></papertitle>
                             <br>
-                            <p><em>Under submission. </em><a href="https://arxiv.org/pdf/2009.12406.pdf" target="_blank">[preprint]</a> <a href="https://github.com/rishabkhincha/deep-split-ensembles" target="_blank">[code]</a> </p>
-                            <p>We propose a conceptually simple non-Bayesian approach, deep split ensemble, to disentangle the predictive uncertainties using a multivariate Gaussian mixture model. The NNs are trained with clusters of input features, for uncertainty estimates per cluster. Extensive analyses using dataset shits and empirical rule highlight our inherently well-calibrated models. Our work further demonstrates its applicability in a multi-modal setting using a benchmark Alzheimer’s dataset and also shows how deep split ensembles can highlight hidden modality-specific biases</p>
+                            Apr 2022 - May 2022
+                            <br>
+                            <br>
+                            <p>
+                                Accelerated the static Mandelbrot Fractal Image Generation on an FPGA using HLS C. 
+                                Attained 3X Speedup over C-based software implementation, analyzing several HLS Pragmas and parameters like word lengths, memory types, and data I/O. 
+                                Utilized PYNQ framework to interface PYNQ-Z1 FPGA and AXI4 Stream Protocol for data I/O.
+                            </p>
                         </td>
                     </tr>
 
                     <tr>
-                        <td style="padding:20px;width:25%;vertical-align:middle">
+                        <td style="padding:10px;width:25%;vertical-align:middle">
                             <div class="one">
-                                <img src='images/missing_dendogram.png' width="120">
+                                <img src='images/iitmlogo.png' width="120">
                             </div>
                         </td>
-                        <td style="padding:20px;width:75%;vertical-align:top">
-                            <papertitle><big>Robustness to Missing Features using Hierarchical Clustering with Split Neural Networks</papertitle></big>
+                        <td style="padding:10px;width:75%;vertical-align:top">
+                            <papertitle style="color:gray"><big> Accelerating the AES Algorithm</big> </papertitle> <papertitle ><big> | Computer Organization Course</big></papertitle>
                             <br>
-                            <p><em>Accepted in the <a href="https://aaai.org/Conferences/AAAI-21/student-abstract-call/" target="_blank">Student Abstract Program</a>, <a href="https://aaai.org/Conferences/AAAI-21/" target="_blank">AAAI 2021</a></em><a href="https://github.com/rishabkhincha/Robustness-to-Missing-Features" target="_blank"> [code]</a></p>
-                            <p>In this work, we propose a simple yet effective approach that clusters similar input features together using hierarchical clustering and then trains proportionately split neural networks with a joint loss. We evaluate this approach on a series of benchmark datasets and show promising improvements even with simple imputation techniques.</p>
-                        </td>
-                    </tr>
-
-                    <tr onmouseout="covid_stop()" onmouseover="covid_start()" >
-                        <td style="padding:20px;width:25%;vertical-align:middle">
-                            <div class="one">
-                                <div class="two" id='covid_gradcam'>
-                                    <img src='images/covid_post.png' width="120">
-                                </div>
-                                <img src='images/covid_pre.png' width="120">
-                            </div>
-                            <script type="text/javascript">
-                                function covid_start() {
-                                    document.getElementById('covid_gradcam').style.opacity = "1";
-                                }
-
-                                function covid_stop() {
-                                    document.getElementById('covid_gradcam').style.opacity = "0";
-                                }
-                                covid_stop()
-                            </script>
-                        </td>
-                        <td style="padding:20px;width:75%;vertical-align:top">
-                            <papertitle><big>CovidDiagnosis: Deep Diagnosis of COVID-19 Patients using Chest X-rays</papertitle></big>
+                            Nov 2021 - Dec 2021
                             <br>
-                            <p><em>Accepted for oral presentation at the <a href="http://www.lungworkshop.org/" target="_blank">TIA Workshop</a>, <a href="https://miccai2020.org/" target="_blank">MICCAI 2020</a>.</em></p>
-                            <p>Built a pipeline comprising of models for lung isolation, followed by classification into different disease classes. We further augment our network with symptom embeddings produced by the CheXpert network and achieve excellent results. Our visualisation maps provide trustworthy and interpretable decisions to radiologists for clinical deployment.</p>
+                            <br>
+                            <p>
+                                Achieved 2X Speedup on accelerating the Advanced Encryption Standard (AES) algorithm on an Artix 7 FPGA using Verilog HDL. 
+                                Interfaced the design with Microblaze Soft IP Core on Xilinx Vivado, providing I/O through C code using Vitis IDE.
+                            </p>
                         </td>
                     </tr>
 
                     <tr>
-                        <td style="padding:20px;width:25%;vertical-align:middle">
+                        <td style="padding:10px;width:25%;vertical-align:middle">
                             <div class="one">
-                                <img src='images/lesion.jpg' width="120">
+                                <img src='images/iitmlogo.png' width="120">
                             </div>
                         </td>
-                        <td style="padding:20px;width:75%;vertical-align:top">
-                            <papertitle><big>Knowledge Transfer in Lesions</big></papertitle>
+                        <td style="padding:10px;width:75%;vertical-align:top">
+                            <papertitle style="color:gray"><big> Designing an 8-bit Carry Save Multiplier</big> </papertitle> <papertitle ><big> | Digital IC Course</big></papertitle>
                             <br>
-                            <p><em>Accepted as a full paper at the <a href="https://www.hvnguyen.com/lesslabelsimperfectdataml2020" target="_blank">MIL3ID Workshop</a>, <a href="https://miccai2020.org/" target="_blank">MICCAI 2020</a>.</em> <a href="https://95217d1b-f241-44bb-939f-69f6fb5c41d2.usrfiles.com/ugd/95217d_c974b9219af6431999ad269a1ae28bb3.pdf" target="_blank"> [preprint] </a> <a href="data/A Case Study of Transfer of Lesion Knowledge-PPT.pdf" target="_blank"> [slides] </a></p>
-                            <p>Studied the transfer of lesion knowledge across organs for lesion classifcation tasks. Our designed experiments on the lung and brain tumour datasets show that transfer learning using lesion-augmented models perform substantially better than models trained using random weights or lesion-agnostic(like ImageNet) transfer.</p>
+                            Nov 2021 - Dec 2021
+                            <br>
+                            <br>
+                            <p>
+                                Designed the Schematic and Layout of an 8-bit CSM, with and without pipelining on GNU Electric. 
+                                Simulated and Validated the DRC & LVS clean design using LTSpice and performed RC Extraction on the complete layout for critical path delay analysis. 
+                            </p>
                         </td>
-                    </tr> 
+                    </tr>
 
                     <tr>
-                        <td style="padding:20px;width:25%;vertical-align:middle">
+                        <td style="padding:10px;width:25%;vertical-align:middle">
                             <div class="one">
-                                <img src='images/imagecube_pre.png' width="120">
+                                <img src='images/riscvlogo.png' width="120">
                             </div>
                         </td>
-                        <td style="padding:20px;width:75%;vertical-align:top">
-                            <papertitle><big>ImageCube</big></papertitle>
+                        <td style="padding:10px;width:75%;vertical-align:top">
+                            <papertitle style="color:gray"><big> Pipelined RISCV 32-bit Processor</big> </papertitle> <papertitle ><big> | Personal Project (Team of 2)</big></papertitle>
                             <br>
-                            <p><em><a href="data/PyAstro_invite.pdf" target="_blank">Invited</a> for an hour long talk at <a href="http://openastronomy.org/pyastro/2020/" target="_blank">PyAstro 2020</a>, Trinity College Dublin. </em><a href="https://github.com/rishabkhincha/ImageCube-1" target="_blank">[code]</a></p>
-                            <p>Built an open source image processing tool in Python to process multi-wavelength astronomy images. On registereing the images from different telescope to a common world coordinate system, they are convolved and re-sampled to a common pixel scale. These images are now put together to form an image cube, to help for easy analysis.</p>
-                        </td>
-                    </tr> 
-
-                    <tr>
-                        <td style="padding:20px;width:25%;vertical-align:middle">
-                            <div class="one">
-                                <img src='images/apnea_post.png' width="120">
-                            </div>
-                        </td>
-                        <td style="padding:20px;width:75%;vertical-align:top">
-                            <papertitle><big>Sleep Apnea Detection on an Embedded Device</big></papertitle>
+                            Sep 2021
                             <br>
-                            <p><em>Accepted as a <a href="https://link.springer.com/chapter/10.1007/978-3-030-51935-3_40" target="_blank">full paper</a> at <a href="http://icisp-conf.org/" target="_blank">ICISP 2020</a>.</em> <a href="https://github.com/rishabkhincha/SleepApneaDetector" target="_blank">[code]</a></p>
-                            <p>We developed a data analysis pipeline combining dataset extraction, segmentation, signal cleaning and filtration to detect the presence of sleep apnea using SVMs. On testing our approach on the MIT-Physionet dataset, we find that the low computational complexity makes it well suited for deployment on embedded devices such as the Raspberry Pi.</p>
-                        </td>
-                    </tr> 
-
-                    <tr>
-                        <td style="padding:20px;width:25%;vertical-align:middle">
-                            <div class="one">
-                                <img src='images/socialnetwork_post.png' width="120">
-                            </div>
-                        </td>
-                        <td style="padding:20px;width:75%;vertical-align:top">
-                            <papertitle><big>Online Learning Assistant with Network Community Analysis</big></papertitle>
                             <br>
-                            <p><em>Accepted at the Young Researcher's Symposium, <a href="https://cods-comad.in/" target="_blank">CODS-COMAD 2021</a></em></p>
-                            <p>Built a simple and scalable platform agnostic tool to aid online discussion forums using Social Network Analysis. We extract keywords from a chat, and list out the top users for this keyword and their activity histograms using a sliding window exponential ranking system. We have tested our methodology on Ubuntu IRC Logs and on our university chat for courses.</p>
+                            <p>
+                                Built a 5-Stage pipelined RISCV ISA-based 32-bit Processor with Hazard Detection and Data Forwarding Units, coded using Verilog HDL.
+                            </p>
                         </td>
-                    </tr> 
-                    
+                    </tr>
                     
                 </tbody></table>
-                </div>
                 <hr class="soft">
 
             </td>
         </tr>
         <tr>
             <td>
-                <p>This template is a modification to Jon Barron's <a href="https://jonbarron.info/" target="_blank">website</a>. Find the source code to my website <a href="https://github.com/rishabkhincha/rishabkhincha.github.io" target="_blank">here</a>.</p>
+                <p>Website Template Credits to Rishab Khincha: <a href="https://github.com/rishabkhincha/rishabkhincha.github.io" target="_blank">Source Code</a>.</p>
             </td>
         </tr>
         <tr>
